@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import AddCategory from './componenets/AddCategory';
-import GifGrid from './componenets/GifGrid';
+import AddCategory from './components/AddCategory';
+import GifGrid from './components/GifGrid';
 
-const GifExpertApp = props => {
+const GifExpertApp = ({ defaultCategories = [] }) => {
 
-    let [categories, setCategories] = useState(['One Punch']);
+    let [categories, setCategories] = useState(defaultCategories);
 
     /*const hadleAdd = () => {
         setCategories([...categories,'Nueva categoria']);

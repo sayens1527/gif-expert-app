@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in GifGridItem component should match with the snapshot 1`] = `
+<div
+  className="grid-item-item"
+>
+  <p>
+     
+    title
+     
+  </p>
+  <img
+    alt="title"
+    src="url"
+  />
+</div>
+`;
